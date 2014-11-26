@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taylor Swift</title>
+
+    <link rel="stylesheet" href="/css/styles.css"/>
+
+</head>
+<body>
+<div>
+
+    <label for="">
+        Your initials: <input id="js-input-initials" type="text"/>
+    </label>
+
+    <label for="">
+        Birth year: <input id="js-input-year" type="text"/>
+    </label>
+
+    <label for="">
+        Upload a childhood photo: <input id="js-input-photo" type="file"/>
+    </label>
+
+    <div>
+        <input id="js-save" type="button" value="create" />
+    </div>
+</div>
+
+<div class="canvas-wrapper">
+    <span class="user-uploaded-image"></span>
+    <span id="js-initials" class="initials"></span>
+    <span id="js-year" class="year"></span>
+    <canvas id="canvas" width="450" height="450"></canvas>
+</div>
+
+<div class="js-preview">
+    <h1>preview</h1>
+</div>
+
+<a href="" id="download">download it</a>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

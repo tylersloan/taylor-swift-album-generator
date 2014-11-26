@@ -1,0 +1,40 @@
+#album-art {
+  background: url("http://groundctrl.s3.amazonaws.com/clients/groundctrl/media/06/10/release_images/assets/medium.RJ4L_rpLyJOqz00WNiKF92cm2zmra3GpUrRgOv0I6yE.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  width: 380px; }
+
+.initials {
+  width: 102px;
+  font-size: 26px;
+  font-family: sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); }
+
+.canvas-wrapper {
+  position: relative;
+  height: 450px;
+  width: 450px; }
+
+.initials,
+.year {
+  position: absolute;
+  bottom: 2em; }
+
+.initials {
+  left: 10%; }
+
+.year {
+  right: 10%; }
+
+.user-uploaded-image {
+  background: rgba(0, 0, 0, 0.4);
+  height: 336px;
+  position: absolute;
+  top: 31px;
+  left: 34px;
+  width: 380px;
+  z-index: 1; }
